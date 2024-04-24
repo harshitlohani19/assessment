@@ -4,6 +4,9 @@ from geometry.square import Square
 from geometry.rectangle import Rectangle
 
 def main():
+    """
+    Main function to demonstrate the usage of the geometry module.
+    """
     if len(sys.argv) < 2:
         print("Usage: python main.py <figure_type> <dimensions>")
         sys.exit(1)
